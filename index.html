@@ -1,1 +1,293 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+      <link rel="stylesheet" href="style.css"/>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <!----Navbar----->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#homeSection">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutSection">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#explorMenuSection">Explore Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#delivery&PaymentSection">delivery & payment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#followUsSection">Follow us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </nav>
 
+        <!----Home Page----->
+       <div class="home-section"id="homeSection">
+        <div class="banner-section-container">
+        <h1 class="banner-heading">Welcome to OnlineShop</h1>
+        <p class="banner-para">Explore top deals and the latest arrivals in just one click!</p>
+        <button class=" btn btn-primary btn-md" onclick="display('aboutSection')" >Shop Now</button>
+        </div>
+       </div>
+    
+       <!----About Page----->
+        <div class="explore-about-section pt-5 pb-5" id="aboutSection">
+         <div class="container">
+            <div class="row mb-1 align-items-center ">
+              <div class="col-12 col-md-12">
+                <h1 class="main-heading">Why choose us?</h1>
+              </div>
+              <div class="col-12 col-md-12">
+                <p class="main-para">
+                  Shop now for the latest fashion, top quality, and unbeatable offers!
+                </p>
+              </div>
+            </div>
+         </div>
+         
+
+      
+         <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-4 col-lg-4">
+                <div class="card-container p-5 mb-3">
+                  <div class="img d-flex flex-row justify-content-center">
+                    <img class="card-img w-50"
+                      src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754498276/offers-icon-3_mimv6a.png" />
+                  </div>
+                   <div class="heading d-flex flex-row justify-content-center">
+                     <h1 class="card-heading">Offers</h1>
+                   </div>
+                   <p class="card-container-para">
+                     Online shopping allows consumers to directly buy goods or services
+                     from a seller over the Internet. A shop presents a selection of
+                     goods and offers to trade or sell them to customers.
+                   </p>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-4">
+                <div class="card-container p-3 mb-1">
+                  <div class="img d-flex flex-row justify-content-center">
+                     <img class="card-img w-50"
+                      src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1762622501/Untitled-design-47_q2c062.png"/>
+                  </div>
+                    <div class="heading d-flex flex-row justify-content-center">
+                      <h1 class="card-heading">EMI</h1>
+                    </div>
+                      <p class="card-container-para">
+                       EMI allows easy installment payments for your purchases,making shopping more convenient
+                       and affordable without paying the full amount upfront.
+                      </p>
+                </div>
+             </div>
+
+             <div class="col-12 col-md-4 col-lg-4">
+               <div class="card-container p-3 mb-3">
+                   <div class="img d-flex flex-row justify-content-center">
+                      <img class="card-img w-50"
+                       src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754498487/360_F_417197205_4ppNaQ0hbew0xOEacSpH8i6mAKJYzRZt_tqy15r.jpg"/>
+                    </div>
+                   <div class="heading d-flex flex-row justify-content-center">
+                     <h1 class="card-heading">ReturnPolicy</h1>
+                    </div>
+                    <p class="card-container-para">
+                      A return policy outlines how customers can return or exchange
+                      merchandise. It includes conditions, reasons, and a time frame for
+                      returns.
+                    </p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+       
+       <!----Explore Menu Page---->
+       <div class="explore-menu-section pt-5 pb-5" id="explorMenuSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 pt-2 pb-2">
+                <h1 class="main-heading">Explore Menu</h1>
+                </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="shadow menu-card-container p-1 m-5">
+                  <img class="menu-card-item w-50" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754676194/Restored-Dell-OptiPlex-Desktop-Computer-Intel-Core-i3-8GB-Memory-500GB-HD-DVD-RW-Wi-Fi-and-19-LCD-Monitor-Windows-10-PC-Refurbished_f00a49cf-e518-4b0e-bfb0-2e54befc092c.f42ac814af430f86f7a8f530ab297634_oucpfs.jpg"/>
+                  <h1 class=" menu-card-title">Computer</h1>
+                  <a class="menu-card-item-link">View All</a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                  </svg>
+                </div>
+                </div>     
+            
+      
+      
+              <div class="col-12 col-md-6 col-lg-4">
+                 <div class="shadow menu-card-container p-1 m-5">
+                   <img class="menu-card-item w-50" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754681043/24_iw7k1c.png"/>
+                   <h1 class=" menu-card-title">Laptop</h1>
+                   <a class="menu-card-item-link">View All</a>
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                   <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                   </svg>
+                 </div>
+              </div>
+      
+      
+      
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="shadow menu-card-container p-1 m-5">
+                 <img class="menu-card-item w-50" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754681131/dseifert_201107_4280_0001.0_qalorq.jpg"/>
+                 <h1 class=" menu-card-title">Tab</h1>
+                 <a class="menu-card-item-link">View All</a>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                 </svg>
+                </div>
+              </div>
+      
+      
+              <div class="col-12 col-md-6 col-lg-4">
+               <div class="shadow menu-card-container p-1 m-5">
+                 <img class="menu-card-item w-50" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754681317/hf2CQvHr9KNtKuUSDkeQVH_denw1o.jpg"/>
+                  <h1 class=" menu-card-title">Phone</h1>
+                  <a class="menu-card-item-link">View All</a>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                 </svg>
+                </div>
+              </div>
+      
+              <div class="col-12 col-md-6 col-lg-4">
+               <div class="shadow menu-card-container p-1 m-5">
+                 <img class="menu-card-item w-50" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754681496/1596819_A_JPG_20Output_gdjvqb.jpg"/>
+                 <h1 class=" menu-card-title">Calci</h1>
+                 <a class="menu-card-item-link">View All</a>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                 </svg>
+                </div>
+              </div>
+      
+              <div class="col-12 col-md-6 col-lg-4">
+               <div class="shadow menu-card-container p-1 m-5">
+                 <img class="menu-card-item w-50" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754161729/mtech-1668346415489_wxp5gc.png"/>
+                  <h1 class=" menu-card-title">SmartWatch</h1>
+                   <a class="menu-card-item-link">View All</a>
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      
+       <!----Delivery & Payment Page---->
+       <div class="delivery-&-payment-section pt-5 pb-5" id="delivery&PaymentSection">
+         
+         <div class="main-container">
+           <div class="container">
+              <div class="row">
+                   
+                    <div class="col-12 col-md-5 p-5">
+                      <img class="image" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754413026/nTnifPRTxqSdTdVvp6by4G_tu4z7t.jpg" alt="Smart charging brain"/>
+                    </div>
+                    <div class="col-12 col-md-7 p-5">
+                      <h1 class="heading">Charge your brain with smart</h1>
+                      <p class="para">Mobile phones offer primarily revolving around enhanced communication, access to information, and entertainment. They facilitate instant communication through calls, texts, and messaging apps, keeping users connected with friends, family, and colleagues. Additionally, phones provide convenient access to a vast amount of information via the internet, including news, research, and educational resources.</p>
+                      <button class="btn btn-primary btn-lg">Watch Video</button>
+                   </div>
+              </div>
+              
+              <div class="row">
+                    <div class="col-12 col-md-7 order-md-1 order-2 p-5">
+                       <h1 class="heading">Delivery and Payment</h1>
+                       <p class="para">Online shopping sites for electronic devices offer a wide range of products with various delivery and payment options. Many platforms provide free delivery, multiple payment methods (including cash on delivery), and hassle-free returns. You can find everything from smartphones and laptops to home appliances and accessories on these sites.</p>
+                      <button class="btn btn-primary btn-lg">Order Now</button>
+                    </div>
+                    <div class="col-12 col-md-5 order-md-2 order-1 p-5">
+                       <img class="image" src="https://res.cloudinary.com/dcizd1l0f/image/upload/v1754419429/pngtree-20-discount-bagde-for-product-sale-offers-png-image_8329414_nczr9w.png" alt="Discount offer"/>
+                    </div>
+              </div>
+          </div>
+       </div>
+       </div> 
+     
+       <!----Follow us page---->
+       <div class="follow-us-section pt-3 pb-3" id="followUsSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="main-heading">Follow Us</h1>
+              </div>
+              <div class="col-12">
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="icon-container">
+                    <i class="fab fa-twitter icon"></i>   
+                  </div>
+                  <div class="icon-container">
+                    <i class="fab fa-instagram icon"></i>
+                  </div>
+                  <div class="icon-container">
+                    <i class="fab fa-facebook icon"></i> 
+                  </div>
+              </div>
+            </div>     
+            </div>
+           </div>
+       </div>
+
+       <!----Footer Page---->
+        <footer class="bg-dark text-white py-3 pt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start">
+                <p>&copy;2025 Shresta.All rights reserved</p>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+              <!----------Font awesome---------->
+                <div class="social-links mb-4">
+                  <a href="#" class="btn btn-light">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="#" class="btn btn-light">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </footer>
+
+     
+
+       <!-- javascript code -->
+ 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    </body>
+ </html>
