@@ -1,0 +1,180 @@
+.container{
+    font-size:25px;
+    font-weight: bold;
+    margin: 60px;
+}
+
+.navbar{
+    color: white;
+}
+
+.nav-link{
+    font-weight: bold;
+    
+}
+
+.online-shop-logo{
+    width: 100px;
+    height:60px;
+}
+
+.banner-section-container{
+    background-image:url("https://res.cloudinary.com/dcizd1l0f/image/upload/v1755528591/Online-Shopping.-2_e6ay19.png");
+    background-size: cover;
+    height:85vh;
+    text-align: center;
+}
+
+.banner-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.banner-para{
+    color: yellow;
+    font-weight: 350;
+    font-size: 20px;
+}
+
+.btn-1{
+ font-size:500% ;
+ border-radius: 5px;
+ padding: 500%;
+ margin: auto;
+}
+
+.main-heading {
+  font-size: 10px;
+  color: #183b56;
+}
+
+.main-para {
+  font-size:15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card-heading{
+    font-size: 20px;
+}
+
+.card-container-para{
+  height: 70px;
+  font-size: 15px;
+  font-style:initial;
+  font-family:Roboto;
+  color: navy;
+}
+
+.card-container{
+  background-color: aliceblue;
+}
+
+.card-img {
+  background-color: aliceblue;
+    
+}
+
+.main-container {
+    background-color: #f8f9fa;
+}
+
+.img-1 {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ .img-2 {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }  
+
+.heading {
+    color: #183b56;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.para {
+    color: #5a7184;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.btn-1 {
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 12px 30px;
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+.payment-card-img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.menu-card-item{
+    border-radius:10px ;
+}
+
+.menu-card-title{
+    color: rgb(3, 3, 55);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.menu-card-item-link{
+    color:#d0b200;
+    font-family: roboto;
+    font-size:15px;
+    font-weight: 500;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    font-weight: 800;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.para{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.image{
+   width: 200px;
+   height: 200px;
+}
+
+.icon-container{
+    background-color: #faf7e8;
+    border-radius:100px;
+    margin:20px;
+    padding: 35px;
+}
+
+.icon{
+    color:#d0b200;
+    font-size:70px;
+    margin-top: 10px;
+}
